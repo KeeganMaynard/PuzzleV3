@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity
                     puzzleView.disableListener( );
                 break;
         }
-        return false; // true;
+        return true;
     }
 
     public boolean onTouchEvent( MotionEvent event ) {
